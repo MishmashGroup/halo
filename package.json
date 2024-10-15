@@ -1,0 +1,21 @@
+{
+  "name": "halo",
+  "version": "1.0.0",
+  "description": "Recursive, pure and simple render function.",
+  "main": "src/halo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --mode development",
+    "bump:patch": "npm version patch && node banner.js",
+    "bump:minor": "npm version minor && node banner.js",
+    "bump:major": "npm version major && node banner.js"
+  },
+  "author": "Nadan Gergeo <nadan@mishma.sh> (www.mishma.sh)",
+  "contributors": ["Steven Hartgers <steven@mishma.sh> (www.mishma.sh)"],
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  }
+}

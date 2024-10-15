@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+}
+
+html {
+    font-size:62.5%
+  }
+  
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    padding: 2em;
+}
+
+#root {
+    isolation: isolate;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+
+button {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 1em;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 2em;
+}
