@@ -1,7 +1,7 @@
 Halo! 🖖
 ==================
 
-Pure and simple render function with hydrating.
+Pure and simple render function with hydrating, in ~20 lines of code.
 
 How to run demo:
 --------
